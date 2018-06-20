@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dnui-common" />
         <module name="dnui-core" />
         <module name="dnui-eureka" />
+        <module name="dnui-manage" />
       </profile>
     </annotationProcessing>
   </component>
