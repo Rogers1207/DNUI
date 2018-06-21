@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+
+spring:
+  application:
+    name: DNUI-Zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+
+zuul:
+  routes:
+    #�Զ���·�ɣ�����������cookie
+    dnui:
+      path: /dnui/**
+      serviceId: dnui-core
+      sensitiveHeaders:
+    manage:
+      path: /manage/**
+      serviceId: dnui-manage
+      sensitiveHeaders:
+  #����·�ɣ�������application name���ʷ�ʽ
+  ignored-patterns:
+    - /dnui-core/**
+    - /dnui-manage/**
+
+
+
+
+

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/denui-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dnui-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dnui-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dnui-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dnui-manage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dnui-zuul" charset="UTF-8" />
   </component>
 </project>

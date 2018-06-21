@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/dnui-core/pom.xml" />
         <option value="$PROJECT_DIR$/dnui-common/pom.xml" />
         <option value="$PROJECT_DIR$/dnui-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/dnui-zuul/pom.xml" />
       </list>
     </option>
   </component>

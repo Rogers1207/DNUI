@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+
+spring:
+  application:
+    name: DNUI-Zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+
+zuul:
+  routes:
+    #自定义路由，并开启接收cookie
+    dnui:
+      path: /dnui/**
+      serviceId: dnui-core
+      sensitiveHeaders:
+    manage:
+      path: /manage/**
+      serviceId: dnui-manage
+      sensitiveHeaders:
+  #忽略路由，屏蔽用application name访问方式
+  ignored-patterns:
+    - /dnui-core/**
+    - /dnui-manage/**
+
+
+
+
+

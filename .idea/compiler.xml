@@ -10,6 +10,7 @@
         <module name="dnui-core" />
         <module name="dnui-eureka" />
         <module name="dnui-manage" />
+        <module name="dnui-zuul" />
       </profile>
     </annotationProcessing>
   </component>

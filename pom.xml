@@ -12,6 +12,7 @@
     <modules>
         <module>dnui-common</module>
         <module>dnui-eureka</module>
+        <module>dnui-zuul</module>
         <module>dnui-core</module>
         <module>dnui-manage</module>
     </modules>
